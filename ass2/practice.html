@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quickpic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>
+
+
+    <style>
+       /*
+        main {
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 0;z
+        }*/
+        .outer {
+            min-height: 81vh;
+            margin-top: 81px;
+            display: flex;
+            flex-direction: column;
+            /*align-items: center;
+            justify-content: center;*/
+        }
+        .login-box {
+            box-sizing: border-box;
+            padding: 10px;
+            width: 100%;
+            max-width: 450px;
+            margin: auto;
+            text-align: center;
+        }
+        .login-box form {
+            margin: auto;
+            width: 100%;
+            max-width: 300px;
+        }
+        .login-box .input-div {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .login-box * input {
+            box-sizing: border-box;
+            width: 100%;
+            height: 40px;
+            border: 1px #E6E6E6 solid;
+            border-radius: 5px;
+            padding: 0 20px;
+            color: grey;
+        }
+        .login-box * input:focus {
+            border: 1px solid #799AEF;
+            outline: none;
+        }
+        .login-box * button {
+            width: 100%;
+            height: 40px;
+            background-color: #799AEF;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        .login-box * button:hover {
+            opacity: 60%;
+            cursor: pointer;
+        }
+        .login-box * a {
+            color: #cd8509;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .login-box * a:hover {
+            opacity: 60%;
+            cursor: pointer;
+        }
+        
+
+        .post {
+            margin: 15px 25px;
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 25px;
+            border-bottom: 1px solid lightgrey;
+        }
+        .post-img {
+            width: 130px;
+            background-color: #EFEFEF;
+            font-size: 13px;
+        }
+        .post-outer {
+            display: flex;
+            align-items: center;
+        }
+        .post-outer p {
+            margin: 0;
+            width: 150px;
+        }
+        .post-outer button {
+            width: 120px;
+
+        }
+        .post-text {
+            margin: 0px;
+            margin-bottom: 5px;
+            margin-left: 25px;
+            
+        }
+        .userdesc-flex {
+            display: flex;
+            flex-direction: row;
+            min-width: 600px;
+        }
+        .desc-flex {
+            display: flex;
+            flex-direction: column;
+        }
+        .post-text > p {
+            margin: 0;
+        }
+        .interact-div {
+            max-width: 600px;
+        }
+        .interact-div p {
+            margin: 5px;
+            margin-left: 20px;
+            color: grey;
+        }
+        .interact-div .username {
+            font-weight: bold;
+        }
+        .interact-div .date {
+            font-size: 12px;
+        }
+        .interact-div .comment {
+            font-size: 14px;
+            border-bottom: 1px solid lightgrey;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- This is an example app structure, you can modify this as much as you choose --> 
+    <header class="banner">
+        <h1>Quickpic</h1>
+        <ul class="nav">
+            <li class="nav-item">Item</li>
+            <li class="nav-item">Item</li>
+        </ul>
+    </header>
+    <main role="main">
+        <div id='outer' class="outer">
+        
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Quickpic</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

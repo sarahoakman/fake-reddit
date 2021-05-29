@@ -1,0 +1,41 @@
+/* login and register styling */
+
+.auth-box {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+.auth-box form {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.match-error {
+    font-size: 13px;
+    color: red;
+    margin-top: -10px;
+}
+.auth-box .input-div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.auth-box * input, .explore * input {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.auth-box button {
+    background-color: #799AEF;
+}
+
+.auth-box * button {
+    width: 100%;
+    height: 40px;
+}
+.auth-box * a {
+    font-size: 14px;
+}

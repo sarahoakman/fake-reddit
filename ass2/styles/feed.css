@@ -1,0 +1,149 @@
+/* feed and post styling */
+
+.post-container {
+    width: 100%;
+    max-width: 825px;
+    margin-top: 100px;
+}
+
+.post-title {
+    color: grey;
+    padding: 10px;
+    margin: 0 40px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.message {
+    color: grey;
+}
+
+.message-center {
+    color: grey;
+    text-align: center
+}
+
+.post {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post button {
+    padding: 10px;
+    background-color: #d5828a;
+}
+
+.post-img {
+    width: 130px;
+    background-color: #EFEFEF;
+    font-size: 13px;
+}
+
+.post-outer {
+    display: flex;
+    align-items: center;
+}
+
+.post-outer p {
+    margin: 0;
+    width: 150px;
+    color: #d5828a;
+}
+
+.post-outer button {
+    width: 120px;
+    padding: 10px;
+}
+
+.post-flex {
+    flex-basis: 80%;
+}
+
+.post-user p {
+    display: inline;
+}
+
+.post-text {
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+.userdesc-flex {
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.desc-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-flex {
+    margin-top: 46px;
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-flex button {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #9dc85c;
+}
+
+.post-text > p {
+    margin: 0;
+}
+
+.interact-div {
+    max-width: 600px;
+}
+
+.interact-div p {
+    margin: 5px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.interact-div .date {
+    font-size: 12px;
+}
+
+.interact-div .comment {
+    font-size: 14px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.add-comment-button {
+    margin: 7px;
+}
+
+/* adjustments for small screens */
+@media (max-width: 630px) {
+    
+    .post-container {
+        margin-top: 100px;
+    }
+
+    .post {
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .desc-flex {
+        margin: auto;
+    }
+
+    .update-flex {
+        margin-top: 10px;
+    }
+
+    .user-details {
+        margin-right: 0;
+    }
+    
+}
